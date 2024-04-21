@@ -11,6 +11,7 @@ PROCEDURE: STEP:1 Start the Xilinx navigator, Select and Name the New project. S
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
+VERILOG CODE:
 
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 
@@ -34,6 +35,8 @@ not(notgate,a);
 
 endmodule
 
+OUTPUT WAVEFORM:
+
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/3fcb5af6-8b80-4b96-a856-617b3bd04da3)
 
 
@@ -41,6 +44,7 @@ endmodule
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
+VERILOG CODE:
 module half_adder(a,b,sum,carry);   
 
 input a,b;
@@ -53,6 +57,8 @@ and g2(carry,a,b);
 
 endmodule
 
+OUTPUT WAVEFORM:
+
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/6ad6b7a3-6cea-4cb1-9445-86e03cf8497c)
 
 
@@ -61,6 +67,7 @@ endmodule
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
+VERILOG CODE:
 module fulladder(a,b,c,sum,carry);
 
 input a,b,c;
@@ -81,6 +88,8 @@ or(carry,w2,w3);
 
 endmodule
 
+OUTPUT WAVEFORM:
+
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/b89f1ab0-8b80-4716-a456-7768be94da1b)
 
 
@@ -88,6 +97,8 @@ endmodule
 # Half Subtractor:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/731470b7-eb4e-49f8-8bb7-2994052a7184)
+
+VERILOG CODE:
 
 module halfsub(a,b,diff,borrow);
 
@@ -101,6 +112,8 @@ and(borrow,~a,b);
 
 endmodule
 
+OUTPUT WAVEFORM:
+
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/21ef54c2-4534-4227-b07f-399913c48816)
 
 
@@ -108,6 +121,8 @@ endmodule
 **Full Subtractor**:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
+
+VERILOG CODE:
 
 module fs(a,b,bin,d,bout);
 
@@ -129,6 +144,8 @@ or(bout,w3,w2);
 
 endmodule
 
+OUTPUT WAVEFORM:
+
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/8acb5604-175e-41fc-a78b-7fd594e82035)
 
 
@@ -136,6 +153,8 @@ endmodule
 # 8 Bit Ripple Carry Adder
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/7385a408-40a5-4203-8050-b72818622d79)
+
+VERILOG CODE:
 
 module fulladder(a,b,c,sum,carry);
 
@@ -186,6 +205,8 @@ fulladder f7(a[6], b[6], w[6], s[6], w[7]);
 fulladder f8(a[7], b[7], w[7], s[7], cout);
 
 endmodule
+
+OUTPUT WAVEFORM:
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/cbecd124-e031-4614-aa18-182339d1dede)
 
