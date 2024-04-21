@@ -45,6 +45,7 @@ OUTPUT WAVEFORM:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/0e1ecb96-0c25-4556-832b-aeeedfdfe7b9)
 
 VERILOG CODE:
+
 module half_adder(a,b,sum,carry);   
 
 input a,b;
@@ -68,6 +69,7 @@ OUTPUT WAVEFORM:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/9bb3964c-438f-469d-a3de-c1cca6f323fb)
 
 VERILOG CODE:
+
 module fulladder(a,b,c,sum,carry);
 
 input a,b,c;
