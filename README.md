@@ -11,15 +11,25 @@ Logic Gates:
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/ee17970c-3ac9-4603-881b-88e2825f41a4)
 
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+
 input a,b;
+
 output andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate;
+
 and(andgate,a,b);
+
 or(orgate,a,b);
+
 xor(xorgate,a,b);
-nand(nandgate,a,b);  
+
+nand(nandgate,a,b);
+
 nor(norgate,a,b);
+
 xnor(xnorgate,a,b);
+
 not(notgate,a);
+
 endmodule
 
 ![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/3fcb5af6-8b80-4b96-a856-617b3bd04da3)
