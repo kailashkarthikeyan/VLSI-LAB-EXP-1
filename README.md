@@ -120,7 +120,7 @@ OUTPUT WAVEFORM:
 
 
 
-**Full Subtractor**:
+# Full Subtractor:
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXPERIMENTS/assets/6987778/d66f874b-c1f2-44b3-a035-7149b56430c1)
 
