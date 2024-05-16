@@ -33,11 +33,11 @@ xnor(xnorgate,a,b);
 
 not(notgate,a);
 
-endmodule
+endmodule ```
 
 OUTPUT WAVEFORM:
 
-![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/3fcb5af6-8b80-4b96-a856-617b3bd04da3) ```
+![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/3fcb5af6-8b80-4b96-a856-617b3bd04da3)
 
 
 # Half Adder:
