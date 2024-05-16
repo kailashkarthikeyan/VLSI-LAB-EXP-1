@@ -13,7 +13,7 @@ PROCEDURE: STEP:1 Start the Xilinx navigator, Select and Name the New project. S
 
 VERILOG CODE:
 
-module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+```module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 
 input a,b;
 
@@ -37,7 +37,7 @@ endmodule
 
 OUTPUT WAVEFORM:
 
-![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/3fcb5af6-8b80-4b96-a856-617b3bd04da3)
+![image](https://github.com/kailashkarthikeyan/VLSI-LAB-EXP-1/assets/160568677/3fcb5af6-8b80-4b96-a856-617b3bd04da3) ```
 
 
 # Half Adder:
