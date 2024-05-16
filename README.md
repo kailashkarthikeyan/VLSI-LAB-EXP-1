@@ -13,7 +13,8 @@ PROCEDURE: STEP:1 Start the Xilinx navigator, Select and Name the New project. S
 
 VERILOG CODE:
 
-```module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
+```
+module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 
 input a,b;
 
@@ -33,7 +34,8 @@ xnor(xnorgate,a,b);
 
 not(notgate,a);
 
-endmodule ```
+endmodule
+```
 
 OUTPUT WAVEFORM:
 
